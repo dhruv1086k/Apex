@@ -6,6 +6,24 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
+
+/* ~~ SCROLLBAR STYLING ~~ */
+::-webkit-scrollbar {
+    width: 10px;
+}  
+::-webkit-scrollbar-track {
+    background: #222831;
+}
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #c7c7c7;
+}
+/* ~~ SCROLLBAR STYLING ~~ */
+
+
 /* ~~ UTILITY CLASSES ~~ */
 .flexCenter{
     display: flex;
@@ -72,9 +90,11 @@
 }
 .lpcRight img{
     filter: drop-shadow(0px 0px 30px #FA6515);
-    }
-    .lpcRight h1{
-        text-shadow: 0px 0px 5px #FA6515;
+}
+.lpcRight h1{
+    line-height: 1.1;
+    font-size: clamp(3rem, 4.5vw, 5rem);
+    text-shadow: 0px 0px 5px #FA6515;
 }
 .lpcRight p{
     text-shadow: 0px 0px 50px #000;
