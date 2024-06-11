@@ -72,11 +72,14 @@
 }
 .lpcRight img{
     filter: drop-shadow(0px 0px 30px #FA6515);
-}
-.lpcRight h1{
-    text-shadow: 0px 0px 5px #FA6515;
+    }
+    .lpcRight h1{
+        text-shadow: 0px 0px 5px #FA6515;
 }
 .lpcRight p{
     text-shadow: 0px 0px 50px #000;
+}
+.lpcLeft img{
+    filter: drop-shadow(0px 0px 100px #000);
 }
 /* ~~ FIRSTPAGE CONTENT ~~ */
