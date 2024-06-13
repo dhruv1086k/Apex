@@ -68,7 +68,7 @@
 
 /* ~~ FIRSTPAGE CONTENT ~~ */
 .navbar{
-  transition: all 0.4s;
+  transition: ease-in-out 0.4s;
 }
 .scrollNav{
   background-color: #00000046;
@@ -131,7 +131,7 @@
     border-radius: 8px;
   }
   .card .image-box {
-    height: 250px;
+    height: 300px;
   }
   .card .image-box img {
     width: 100%;

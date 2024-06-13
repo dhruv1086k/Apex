@@ -24,15 +24,15 @@ var swiper = new Swiper(".slide-container", {
         slidesPerView: 2,
       },
       768: {
-        slidesPerView: 3,
+        slidesPerView: 2,
       },
       1000: {
-        slidesPerView: 4,
+        slidesPerView: 3,
       },
     },
   });
 
-  document.addEventListener('scroll', function(){
+  window.addEventListener('scroll', function(){
     const navbar = document.querySelector('.navbar');
     if(window.scrollY > 0){ 
       navbar.classList.add('scrollNav');
