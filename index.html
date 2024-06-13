@@ -9,6 +9,7 @@
     <meta name="keywords" content="APEX, designing, designers, editing">
     <script src="https://kit.fontawesome.com/e64b4eb724.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -46,14 +47,85 @@
             </div>
         </div>
     </div>
-    <div class="teamPage w-full h-screen">
-        <div class="teamPageLeft">
-            <h1>THE TEAM</h1>
-            <i class="fa-solid fa-circle-chevron-right"></i>
+    <div class="teamPage w-full h-screen flexCenter px-24">
+        <div class="teamPageLeft w-1/4 h-full flexCenter pl-5">
+            <h1 class="text-7xl text-skin-base1 font-semibold leading-tight">THE TEAM</h1>
+            <i class="fa-solid fa-circle-chevron-right text-5xl text-skin-base1"></i>
         </div>
-        <div class="teamPageRight">
-
+        <div class="teamPageRight w-3/4 h-full flexCenter pl-16">
+            <div class="container swiper">
+                <div class="slide-container">
+                  <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                      <div class="image-box">
+                        <img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                      </div>
+                      <div class="profile-details">
+                        <img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                        <div class="name-job">
+                          <h3 class="name">Akshit Bhaiya</h3>
+                          <h4 class="job">Full Stack Developer</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card swiper-slide">
+                      <div class="image-box">
+                        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                      </div>
+                      <div class="profile-details">
+                        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="name-job">
+                          <h3 class="name">Aman Bhaiya</h3>
+                          <h4 class="job">Photographer</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card swiper-slide">
+                      <div class="image-box">
+                        <img src="https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                      </div>
+                      <div class="profile-details">
+                        <img src="https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="name-job">
+                          <h3 class="name">Lovish Bhaiya</h3>
+                          <h4 class="job">Data Analyst</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card swiper-slide">
+                      <div class="image-box">
+                        <img src="https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                      </div>
+                      <div class="profile-details">
+                        <img src="https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="name-job">
+                          <h3 class="name">Dhruv Pal</h3>
+                          <h4 class="job">App Developer</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card swiper-slide">
+                      <div class="image-box">
+                        <img src="https://images.pexels.com/photos/1270076/pexels-photo-1270076.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                      </div>
+                      <div class="profile-details">
+                        <img src="https://images.pexels.com/photos/1270076/pexels-photo-1270076.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <div class="name-job">
+                          <h3 class="name">Somone</h3>
+                          <h4 class="job">Blogger</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+              </div>
         </div>
     </div>
+
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
