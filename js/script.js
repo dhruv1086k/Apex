@@ -31,3 +31,12 @@ var swiper = new Swiper(".slide-container", {
       },
     },
   });
+
+  document.addEventListener('scroll', function(){
+    const navbar = document.querySelector('.navbar');
+    if(window.scrollY > 0){ 
+      navbar.classList.add('scrollNav');
+    }else{
+      navbar.classList.remove('scrollNav');
+    }
+  });

@@ -67,6 +67,13 @@
 
 
 /* ~~ FIRSTPAGE CONTENT ~~ */
+.navbar{
+  transition: all 0.4s;
+}
+.scrollNav{
+  background-color: #00000046;
+  backdrop-filter: blur(20px);
+}
 .links .li .a, .lpcRight a{
     transition: all 0.4s;
 }
