@@ -9,7 +9,7 @@ module.exports = {
         }
       },
       fontSize: {
-
+        
       },
       height: {
         '15v' : '15vh',
