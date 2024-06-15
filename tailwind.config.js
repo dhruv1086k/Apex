@@ -5,11 +5,12 @@ module.exports = {
     extend: {
       colors:{
         skin: {
-          base1: 'var(--base1)'
+          base1: 'var(--base1)',
+          base2: 'var(--base2)'
         }
       },
       fontSize: {
-        
+
       },
       height: {
         '15v' : '15vh',

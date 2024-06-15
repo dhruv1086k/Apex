@@ -4,5 +4,6 @@
 @layer base{
     :root{
         --base1 : #fff;
+        --base2 : #0072b1;
     }
 }
